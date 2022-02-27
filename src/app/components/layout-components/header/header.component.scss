@@ -1,0 +1,25 @@
+.header {
+  background-color: #fff;
+  margin-bottom: 3px;
+  max-height: 60px;
+  padding: 0 10px;
+  color: black;
+}
+
+.marginRight {
+  margin-right: 10px;
+}
+
+.rightJustify {
+  justify-content: flex-end;
+}
+
+#page-content {
+  min-height: 100%;
+  margin-bottom: -136px;
+}
+
+#page-content:after {
+  content: "";
+  display: block;
+}

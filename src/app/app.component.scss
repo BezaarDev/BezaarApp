@@ -1,0 +1,11 @@
+#page-content {
+  min-height: 100%;
+  margin-bottom: -136px;
+  background-color: gray;
+}
+
+#page-content:after {
+  content: "";
+  display: block;
+  height: 136px;
+}

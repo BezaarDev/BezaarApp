@@ -1,0 +1,10 @@
+<div dropdown class="btn-group dropdownButton" dropdown>
+    <button id="button-basic" dropdownToggle type="button" class="btn dropdown-toggle"
+            aria-controls="dropdown-basic" aria-expanded="false" aria-haspopup="false">
+      All Categories <span class="caret"></span>
+    </button>
+    <ul id="dropdown-basic" *dropdownMenu class="dropdown-menu"
+        role="menu" aria-labelledby="button-basic">
+      <li role="menuitem" *ngFor="let items of categories"><a class="dropdown-item" href="#">{{items}}</a></li>
+    </ul>
+</div>
