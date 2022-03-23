@@ -1,5 +1,87 @@
-<div class="row">
-    <div class="col">
-        <app-listing [listings]="listings"></app-listing>
+<div class="row split top">
+  <div class="col-6">
+    <div class="row">
+      <div class="col">
+        <h1 class="large-font text-success">How Buying Should Work</h1>
+      </div>
     </div>
+    <div class="row">
+      <div class="col-8">
+        <p class="h4">
+          Save time and money by posting a wanted ad on the Bezaar marketplace.
+        </p>
+      </div>
+    </div>
+    <div class="row mt-1">
+      <div class="col">
+        <button type="button" class="btn btn-success me-4">Post an add</button>
+        <button
+          type="button"
+          class="btn btn-outline-success"
+          (click)="navigateToListing()"
+        >
+          Browse listings
+        </button>
+      </div>
+    </div>
+  </div>
+  <div class="col-1"></div>
+  <div class="col-5">
+    <img
+      src="http://127.0.0.1:8887/pfp.jpg"
+      class="card-img-top image"
+      alt="profile photo"
+    />
+  </div>
+</div>
+
+<div class="row split bottom text-light">
+  <div class="col-6">
+    <img
+      src="http://127.0.0.1:8887/maxresdefault.jpg"
+      class="card-img-top bottom-image"
+      alt="profile photo"
+    />
+  </div>
+  <div class="col-6">
+    <div class="row">
+      <div class="col">
+        <h2 class="display-1">Looking for a product or service?</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <p class="lead">
+          Bezaar is a buyer focused marketplace. You can find exactly what you
+          want. Right here. Right now.
+        </p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-11">
+        <button type="button" class="btn btn-light">Learn More</button>
+        <div class="learn-more-button mt-4 ms-1 me-4"></div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-4">
+        <p>Buyer focused marketplace</p>
+      </div>
+      <div class="col-4">
+        <p>save time and money</p>
+      </div>
+      <div class="col-4">
+        <p>Buyer focused marketplace</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="row footer text-center">
+  <div class="col">
+    <a href="#" class="m-2">About</a>
+    <a href="#" class="m-2">User Agreement</a>
+    <a href="#" class="m-2">Privacy Policy</a>
+    <a href="#" class="m-2">Community Guidelines</a>
+  </div>
 </div>

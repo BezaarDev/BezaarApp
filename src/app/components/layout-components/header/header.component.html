@@ -1,20 +1,23 @@
 <header role="banner" class="header">
-    <div class="row">
-        <div class="col-4"><h1>Bezaar</h1></div>
-        
-        <div class="col-4">
-            <form action="/action_page.php">
-                <label for="itemSearch"></label>
-                <input type="search" id="itemSearch" name="itemSearch">
-                <app-dropdown-button [categories]="Categories" class="marginRight"></app-dropdown-button>
-                <input type="submit" class="marginRight" value="Search">
-            </form>
-        </div>
+  <div class="row">
+    <div class="col-4"><h1>Bezaar</h1></div>
 
-        <div class="col-4 ml-auto">
-            <a href="#">sign up </a>
-            <span>or </span>
-            <a href="#">login</a>
-        </div>
+    <div class="col-4 mt-2">
+      <form action="/action_page.php">
+        <label for="itemSearch"></label>
+        <input type="search" id="itemSearch" name="itemSearch" />
+        <app-dropdown-button
+          [categories]="Categories"
+          class="marginRight"
+        ></app-dropdown-button>
+        <input type="submit" class="marginRight" value="Search" />
+      </form>
     </div>
+
+    <div class="col-4 ml-auto text-end mt-3">
+      <a href="#">sign up </a>
+      <span>or </span>
+      <a href="#">login</a>
+    </div>
+  </div>
 </header>
